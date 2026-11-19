@@ -1,11 +1,12 @@
 {
-  "repositorio": null,
+  "repositorio": "https://github.com/luizhenriqueposs7/citizentech-visao-computacional-gs-2026",
   "principal": {
-    "url": null,
+    "url": "https://github.com/luizhenriqueposs7/citizentech-visao-computacional-gs-2026/releases/download/v1.0.0/modelo_principal_resnet18.pth",
     "sha256": "67d0b015527c8f487aaa4f84354328cd4cf6f305cb0f038187f0261c18c316e8"
   },
   "completo": {
-    "url": null,
+    "url": "https://github.com/luizhenriqueposs7/citizentech-visao-computacional-gs-2026/releases/download/v1.0.0/CitizenTech_Materiais_Reproducao.zip",
     "sha256": "1587a97277b633183f936fb8ef0343eaf1ed83919c6971bc8a265db8e3cf8e58"
-  }
+  },
+  "versao": "https://github.com/luizhenriqueposs7/citizentech-visao-computacional-gs-2026/releases/tag/v1.0.0"
 }

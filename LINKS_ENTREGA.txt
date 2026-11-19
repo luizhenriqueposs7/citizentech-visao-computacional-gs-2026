@@ -1,0 +1,13 @@
+CITIZENTECH - VISAO COMPUTACIONAL
+
+Repositorio e codigo:
+https://github.com/luizhenriqueposs7/citizentech-visao-computacional-gs-2026
+
+Materiais completos, pesos e verificacao SHA-256:
+https://github.com/luizhenriqueposs7/citizentech-visao-computacional-gs-2026/releases/tag/v1.0.0
+
+Video tecnico:
+https://youtu.be/zPO3fmRpRLA
+
+O modelo principal esta incluido no ZIP da plataforma.
+Para reproduzir a avaliacao completa: python baixar_materiais.py --completo
