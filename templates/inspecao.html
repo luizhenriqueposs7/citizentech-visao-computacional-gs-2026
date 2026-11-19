@@ -1,0 +1,87 @@
+{% extends "base.html" %}
+{% block title %}CitizenTech · Inspeção visual{% endblock %}
+{% block head %}<script src="{{ url_for('static', filename='inspecao.js') }}" defer></script>{% endblock %}
+{% block content %}
+  <section class="hero">
+    <div class="frame hero-inner">
+      <div>
+        <span class="eyebrow">05 / MANUTENÇÃO URBANA</span>
+        <h1>Inspeção visual de concreto</h1>
+        <p>Classifique imagens e priorize a revisão humana.</p>
+      </div>
+      <div class="grid-art" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+    </div>
+  </section>
+  <main class="frame evaluation vision">
+    <section class="panel eval-block">
+      <h2>Analisar arquivos</h2>
+      <p class="notice">Use imagens de perto da superfície de concreto. A classificação vale para o quadro inteiro.</p>
+      <form class="vision-upload" method="post" enctype="multipart/form-data">
+        <label>Imagens ou sequência
+          <input type="file" name="imagens" accept="image/jpeg,image/png" multiple>
+          <small>Até 24 imagens JPEG ou PNG</small>
+        </label>
+        <label>Vídeo curto
+          <input type="file" name="video" accept=".mp4,.mov,.avi">
+          <small>Até 180 quadros e 24 MB</small>
+        </label>
+        <button id="analisar" type="submit">Analisar</button>
+      </form>
+      {% if erro %}<p class="vision-error" role="alert">{{ erro }}</p>{% endif %}
+      <p class="notice">Triagem para inspeção humana. O resultado não mede gravidade ou segurança estrutural.</p>
+    </section>
+    <section id="acompanhamento" class="panel eval-block" aria-labelledby="execucao" hidden>
+      <h2 id="execucao">Análise em execução</h2>
+      <p id="progresso" role="status">Aguardando o primeiro quadro</p>
+      <div class="vision-live">
+        <img id="quadro-atual" alt="Quadro processado pelo modelo" hidden>
+        <div>
+          <p id="nome-quadro"></p>
+          <h3 id="classe-atual"></h3>
+          <p id="confianca-atual"></p>
+          <p id="revisao-atual"></p>
+        </div>
+      </div>
+    </section>
+    {% if lote %}
+      <section aria-labelledby="resultado">
+        <h2 id="resultado">Resultado da análise</h2>
+        <div class="metrics">
+          <div class="panel metric"><span>Quadros processados</span><strong>{{ lote.total }}</strong></div>
+          <div class="panel metric"><span>Sinalizados</span><strong>{{ lote.sinalizados }}</strong></div>
+          <div class="panel metric"><span>{{ "Latência média" if lote.total > 1 else "Latência" }}</span><strong>{{ "%.1f"|format(lote.latencia_ms) }} ms</strong></div>
+          {% if lote.total > 1 %}
+            <div class="panel metric"><span>FPS observado</span><strong>{{ "%.1f"|format(lote.fps) }}</strong></div>
+          {% endif %}
+        </div>
+        <p class="notice vision-meta">
+          Original {{ lote.resolucoes }} px · Entrada {{ lote.entrada_modelo }} × {{ lote.entrada_modelo }} px ·
+          Limiar {{ "%.0f"|format(lote.limiar * 100) }}%. O tempo inclui leitura, inferência e preparo das prévias.
+        </p>
+        <div class="vision-previews">
+          {% for r in lote.resultados if r.imagem %}
+            <figure class="panel vision-preview">
+              <img src="data:image/jpeg;base64,{{ r.imagem }}" alt="Superfície de concreto analisada em {{ r.nome }}">
+              <figcaption>
+                <small>{{ r.nome }}</small>
+                <strong>{{ r.classe }}</strong>
+                <span>{{ "%.1f"|format(r.confianca * 100) }}% de confiança</span>
+                {% if r.alerta %}<span class="badge error">Encaminhar para inspeção</span>{% endif %}
+              </figcaption>
+            </figure>
+          {% endfor %}
+        </div>
+        <section class="panel eval-block">
+          <h2>Classificação por quadro</h2>
+          <p class="notice">A confiança é o escore do modelo para a classe exibida. A ausência de sinalização exige confirmação em campo.</p>
+          <table>
+            <thead><tr><th scope="col">Arquivo ou quadro</th><th scope="col">Classe</th><th scope="col">Confiança</th><th scope="col">Escore de fissura</th></tr></thead>
+            <tbody>{% for r in lote.resultados %}
+              <tr><td>{{ r.nome }}</td><td>{{ r.classe }}</td><td>{{ "%.1f"|format(r.confianca * 100) }}%</td><td>{{ "%.1f"|format(r.escore * 100) }}%</td></tr>
+            {% endfor %}</tbody>
+          </table>
+        </section>
+      </section>
+    {% endif %}
+  </main>
+{% endblock %}

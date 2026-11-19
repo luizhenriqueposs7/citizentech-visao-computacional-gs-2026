@@ -1,0 +1,14 @@
+arquivo,tipo,pixels_mascara,escore_160,classe_224,escore_224,fator_visual,observacao
+recortes/475_1135_0.jpg,FN,87,0.22106078,no_crack,0.15085258,Fragmento na borda,A máscara marca apenas um trecho no canto superior direito. O traço quase se confunde com o fundo.
+recortes/475_2497_3632.jpg,FP,0,0.66517711,no_crack,0.18511553,Marca clara,Linhas claras e irregulares acompanham o relevo no lado esquerdo do recorte.
+recortes/544_454_3405.jpg,FN,619,0.27150950,no_crack,0.08024770,Causa incerta,Fissura irregular visível junto à borda inferior. O traço é reconhecível no recorte.
+recortes/464_1362_3178.jpg,FN,1517,0.03185595,no_crack,0.04521250,Baixo contraste,Traço ramificado e pouco nítido. A máscara delimita segmentos que se confundem com o fundo.
+recortes/464_1816_1135.jpg,FN,762,0.17301989,no_crack,0.07458758,Baixo contraste,Traço vertical pouco nítido em uma região com iluminação desigual.
+recortes/370_681_2270.jpg,FN,51,0.06153112,no_crack,0.08310908,Fragmento na borda,"A máscara marca só o canto inferior direito, em uma superfície rugosa."
+recortes/497_1816_681.jpg,FN,71,0.04337280,no_crack,0.04638685,Fragmento na borda,A máscara marca um segmento curto na borda inferior. Há também marcas escuras dispersas.
+recortes/497_2043_2043.jpg,FP,0,0.99960464,crack,0.97219849,Marca clara,Linha curva e clara atravessa a parte inferior da imagem.
+recortes/117_3405_227.jpg,FP,0,0.68453819,crack,0.46259484,Marca clara,Linha clara fina e cavidades aparecem em uma superfície com textura irregular.
+recortes/116_3405_681.jpg,FP,0,0.96294826,crack,0.38906232,Causa incerta,Traço escuro estreito em concreto rugoso. A máscara do recorte e da região ao redor está vazia.
+recortes/553_2270_2270.jpg,FN,147,0.17743607,no_crack,0.07283384,Fragmento na borda,A máscara marca só o canto inferior esquerdo. A rugosidade se destaca no restante do recorte.
+recortes/021_2951_2724.jpg,FN,2051,0.05695131,no_crack,0.06907196,Baixo contraste,"Traço diagonal contínuo, com pouco contraste em relação ao concreto."
+recortes/291_2043_1135.jpg,FP,0,0.99998116,crack,0.99999785,Possível omissão no rótulo,"Há um traço escuro, irregular e contínuo. No entorno, a máscara cobre uma fissura mais larga acima e deixa esse traço sem marcação."

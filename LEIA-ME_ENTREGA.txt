@@ -1,0 +1,23 @@
+CITIZENTECH - VISÃO COMPUTACIONAL PARA MANUTENÇÃO URBANA
+
+Pacote de até 50 MB: código, modelo principal, relatório, métricas, exemplos e clipes.
+
+VÍDEO OFICIAL
+https://youtu.be/zPO3fmRpRLA
+
+REPOSITÓRIO
+https://github.com/luizhenriqueposs7/citizentech-visao-computacional-gs-2026
+
+EXECUTAR
+Instale requirements.txt e execute python app.py.
+Abra http://127.0.0.1:8765 e selecione Inspeção visual.
+Use as imagens de amostras/ ou demo/monitoramento_ao_vivo.mp4.
+Os pesos principais estão incluídos; não é preciso treinar para usar a inspeção.
+
+REPRODUÇÃO COMPLETA
+Execute python baixar_materiais.py --completo para obter a amostra e o modelo de 224 px.
+Os downloads publicados no GitHub são conferidos por SHA-256.
+Consulte README.md para preparar dados, treinar e avaliar.
+
+O vídeo completo permanece no YouTube para respeitar o limite da plataforma.
+A classificação apoia a triagem, sem determinar gravidade ou segurança estrutural.

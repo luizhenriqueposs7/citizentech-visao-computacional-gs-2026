@@ -1,0 +1,57 @@
+{
+  "video": "concreto_sequencia.mp4",
+  "origem": "sequência de seis recortes do teste",
+  "resolucao_original": "480x480",
+  "resolucao_modelo": "160x160",
+  "fps_origem": 8,
+  "repeticoes": [
+    {
+      "total": 48,
+      "sinalizados": 32,
+      "fps": 38.195413144903014,
+      "latencia_ms": 26.1811541665035
+    },
+    {
+      "total": 48,
+      "sinalizados": 32,
+      "fps": 39.38419851813935,
+      "latencia_ms": 25.390893749924242
+    },
+    {
+      "total": 48,
+      "sinalizados": 32,
+      "fps": 36.07649208423478,
+      "latencia_ms": 27.71888125001472
+    },
+    {
+      "total": 48,
+      "sinalizados": 32,
+      "fps": 36.865631761266805,
+      "latencia_ms": 27.125535416719988
+    },
+    {
+      "total": 48,
+      "sinalizados": 32,
+      "fps": 40.81820083564773,
+      "latencia_ms": 24.49887500006298
+    }
+  ],
+  "aquecimento": {
+    "total": 48,
+    "sinalizados": 32,
+    "fps": 32.460512969497536,
+    "latencia_ms": 30.806660416601517
+  },
+  "latencia_media_ms": 26.183067916645086,
+  "fps_medio": 38.26798726883833,
+  "quadros": 48,
+  "sinalizados": 32,
+  "sequencia": [
+    "recortes/117_227_1362.jpg",
+    "recortes/223_2951_454.jpg",
+    "recortes/117_3405_227.jpg",
+    "recortes/464_1816_1135.jpg",
+    "recortes/184_3405_1362.jpg",
+    "recortes/504_2951_1816.jpg"
+  ]
+}

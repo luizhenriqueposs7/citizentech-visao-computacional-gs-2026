@@ -1,0 +1,246 @@
+{
+  "video": "Apresentacao_Tecnica_CitizenTech.mp4",
+  "duracao_video_s": 457.08,
+  "duracao_audio_s": 457.1093125,
+  "resolucao": [
+    1440,
+    900
+  ],
+  "fps": 25.002187800822615,
+  "atualizacoes_ao_vivo": 180,
+  "comandos": [
+    {
+      "acao": "dados",
+      "codigo": 0
+    },
+    {
+      "acao": "teste",
+      "codigo": 0
+    },
+    {
+      "acao": "ambiente",
+      "codigo": 0
+    },
+    {
+      "acao": "sutis",
+      "codigo": 0
+    }
+  ],
+  "sha256_narracao_original": "18b743a6980599c3666ff00ef71b582e74df185da3ce42b1c3ccca14d6656498",
+  "comparacao_audio": [
+    {
+      "inicio_s": 0,
+      "correlacao": 0.999753148390649
+    },
+    {
+      "inicio_s": 60,
+      "correlacao": 0.999853183208615
+    },
+    {
+      "inicio_s": 120,
+      "correlacao": 0.9998751469193236
+    },
+    {
+      "inicio_s": 180,
+      "correlacao": 0.9999603662874188
+    },
+    {
+      "inicio_s": 240,
+      "correlacao": 0.9998265517236282
+    },
+    {
+      "inicio_s": 300,
+      "correlacao": 0.9998677846182974
+    },
+    {
+      "inicio_s": 360,
+      "correlacao": 0.9997199991065717
+    },
+    {
+      "inicio_s": 420,
+      "correlacao": 0.9998652385939316
+    },
+    {
+      "inicio_s": 449,
+      "correlacao": 0.9998346996752828
+    }
+  ],
+  "pico_audio_dbfs": -1.6026728064710207,
+  "comparacao_captura": [
+    {
+      "segundo": 5,
+      "erro_medio_rgb": 0.7657973251028807
+    },
+    {
+      "segundo": 24,
+      "erro_medio_rgb": 0.7457340534979424
+    },
+    {
+      "segundo": 39,
+      "erro_medio_rgb": 1.1536090534979424
+    },
+    {
+      "segundo": 55,
+      "erro_medio_rgb": 0.8899359567901235
+    },
+    {
+      "segundo": 69,
+      "erro_medio_rgb": 1.136883744855967
+    },
+    {
+      "segundo": 80,
+      "erro_medio_rgb": 1.042235596707819
+    },
+    {
+      "segundo": 88,
+      "erro_medio_rgb": 0.836068158436214
+    },
+    {
+      "segundo": 95,
+      "erro_medio_rgb": 0.8566754115226337
+    },
+    {
+      "segundo": 102,
+      "erro_medio_rgb": 1.1761121399176955
+    },
+    {
+      "segundo": 108,
+      "erro_medio_rgb": 0.9885586419753086
+    },
+    {
+      "segundo": 116,
+      "erro_medio_rgb": 1.0745488683127573
+    },
+    {
+      "segundo": 127,
+      "erro_medio_rgb": 1.1008770576131688
+    },
+    {
+      "segundo": 141,
+      "erro_medio_rgb": 0.8290069444444444
+    },
+    {
+      "segundo": 156,
+      "erro_medio_rgb": 0.8279642489711934
+    },
+    {
+      "segundo": 165,
+      "erro_medio_rgb": 1.0197080761316872
+    },
+    {
+      "segundo": 179,
+      "erro_medio_rgb": 1.1308058127572016
+    },
+    {
+      "segundo": 190,
+      "erro_medio_rgb": 1.1363019547325104
+    },
+    {
+      "segundo": 198,
+      "erro_medio_rgb": 0.7103284465020576
+    },
+    {
+      "segundo": 206,
+      "erro_medio_rgb": 0.5685733024691358
+    },
+    {
+      "segundo": 212,
+      "erro_medio_rgb": 0.4490133744855967
+    },
+    {
+      "segundo": 220,
+      "erro_medio_rgb": 0.6033317901234568
+    },
+    {
+      "segundo": 228,
+      "erro_medio_rgb": 1.0430581275720165
+    },
+    {
+      "segundo": 245,
+      "erro_medio_rgb": 0.3644320987654321
+    },
+    {
+      "segundo": 257,
+      "erro_medio_rgb": 1.0251823559670783
+    },
+    {
+      "segundo": 268,
+      "erro_medio_rgb": 1.1053395061728395
+    },
+    {
+      "segundo": 281,
+      "erro_medio_rgb": 0.5091936728395061
+    },
+    {
+      "segundo": 297,
+      "erro_medio_rgb": 1.0191545781893003
+    },
+    {
+      "segundo": 308,
+      "erro_medio_rgb": 0.8654444444444445
+    },
+    {
+      "segundo": 319,
+      "erro_medio_rgb": 0.7335846193415638
+    },
+    {
+      "segundo": 330,
+      "erro_medio_rgb": 0.7667736625514403
+    },
+    {
+      "segundo": 340,
+      "erro_medio_rgb": 0.8970802469135802
+    },
+    {
+      "segundo": 349,
+      "erro_medio_rgb": 0.7452006172839506
+    },
+    {
+      "segundo": 353,
+      "erro_medio_rgb": 0.7655995370370371
+    },
+    {
+      "segundo": 364,
+      "erro_medio_rgb": 0.8771265432098766
+    },
+    {
+      "segundo": 372,
+      "erro_medio_rgb": 0.5250473251028807
+    },
+    {
+      "segundo": 382,
+      "erro_medio_rgb": 0.8885295781893005
+    },
+    {
+      "segundo": 393,
+      "erro_medio_rgb": 0.32963940329218105
+    },
+    {
+      "segundo": 401,
+      "erro_medio_rgb": 0.24756970164609055
+    },
+    {
+      "segundo": 407,
+      "erro_medio_rgb": 1.110420010288066
+    },
+    {
+      "segundo": 418,
+      "erro_medio_rgb": 1.0549549897119341
+    },
+    {
+      "segundo": 432,
+      "erro_medio_rgb": 1.1046427469135802
+    },
+    {
+      "segundo": 443,
+      "erro_medio_rgb": 1.2598161008230453
+    },
+    {
+      "segundo": 453,
+      "erro_medio_rgb": 0.8397795781893004
+    }
+  ],
+  "decodificacao_integral": "OK",
+  "erro_medio_rgb_vs_captura_png": 2.275948816872428,
+  "limite_revisao": "Conferência visual, transcrição e medições; sem escuta perceptiva."
+}

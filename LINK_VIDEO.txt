@@ -1,0 +1,6 @@
+CitizenTech - Visão Computacional para Manutenção Urbana
+
+https://youtu.be/zPO3fmRpRLA
+
+Duração: 7min37s.
+Código, dados, resultados e execução real de imagens e vídeo no CitizenTech.

@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+.runtime/
+.materiais/
+*.download
+data/
+artifacts/*.pth
+artifacts/resolucao_224/*.pth

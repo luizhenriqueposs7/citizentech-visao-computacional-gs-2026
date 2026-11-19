@@ -1,0 +1,18 @@
+[
+  {
+    "arquivo": "vp",
+    "quadros": 1,
+    "http": 200
+  },
+  {
+    "arquivo": "vn",
+    "quadros": 1,
+    "http": 200
+  },
+  {
+    "arquivo": "monitoramento_ao_vivo.mp4",
+    "quadros": 180,
+    "atualizacoes_visiveis": 180,
+    "http": 200
+  }
+]

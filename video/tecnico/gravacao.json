@@ -1,0 +1,370 @@
+{
+  "canvas": [
+    1440,
+    900
+  ],
+  "fps": 25,
+  "duracao_audio": 457.0935,
+  "eventos": [
+    {
+      "nome": "citizentech",
+      "previsto": 0,
+      "real": 0.09027530000000002
+    },
+    {
+      "nome": "modulo_visual",
+      "previsto": 8,
+      "real": 8.1960433
+    },
+    {
+      "nome": "primeira_previsao",
+      "previsto": 18,
+      "real": 18.588553500000003
+    },
+    {
+      "nome": "resultado_visual",
+      "previsto": 29.4,
+      "real": 29.430494700000004
+    },
+    {
+      "nome": "fonte_dados",
+      "previsto": 35.4,
+      "real": 35.7958626
+    },
+    {
+      "nome": "pares_rgb_mascara",
+      "previsto": 43.8,
+      "real": 44.1087732
+    },
+    {
+      "nome": "amostra",
+      "previsto": 51.1,
+      "real": 51.1804982
+    },
+    {
+      "nome": "iniciar_auditoria",
+      "previsto": 60,
+      "real": 60.0567348
+    },
+    {
+      "nome": "orientacao",
+      "previsto": 67.6,
+      "real": 67.8978814
+    },
+    {
+      "nome": "divisao_por_foto",
+      "previsto": 72,
+      "real": 72.3017253
+    },
+    {
+      "nome": "auditoria_dados",
+      "previsto": 78,
+      "real": 78.0634483
+    },
+    {
+      "nome": "manifesto",
+      "previsto": 85.9,
+      "real": 85.9508343
+    },
+    {
+      "nome": "hash_rgb",
+      "previsto": 92,
+      "real": 92.3190413
+    },
+    {
+      "nome": "resnet18",
+      "previsto": 99,
+      "real": 99.29297460000001
+    },
+    {
+      "nome": "pesos_imagenet",
+      "previsto": 105.8,
+      "real": 106.1428208
+    },
+    {
+      "nome": "ajuste_parcial",
+      "previsto": 113,
+      "real": 113.344741
+    },
+    {
+      "nome": "treinamento",
+      "previsto": 120.6,
+      "real": 120.9680476
+    },
+    {
+      "nome": "preprocessamento",
+      "previsto": 135.7,
+      "real": 135.9817928
+    },
+    {
+      "nome": "avaliacao_iniciada",
+      "previsto": 136.5,
+      "real": 136.51273669999998
+    },
+    {
+      "nome": "normalizacao",
+      "previsto": 144.4,
+      "real": 144.6751703
+    },
+    {
+      "nome": "limiar_validacao",
+      "previsto": 151.5,
+      "real": 151.82308749999999
+    },
+    {
+      "nome": "configuracao_selecionada",
+      "previsto": 163.1,
+      "real": 163.3981144
+    },
+    {
+      "nome": "teste_em_execucao",
+      "previsto": 170.8,
+      "real": 170.81855279999996
+    },
+    {
+      "nome": "metricas_recalculadas",
+      "previsto": 176.6,
+      "real": 176.72632259999997
+    },
+    {
+      "nome": "matriz_confusao",
+      "previsto": 187.9,
+      "real": 187.90798059999997
+    },
+    {
+      "nome": "treze_erros",
+      "previsto": 194,
+      "real": 194.0255318
+    },
+    {
+      "nome": "falsos_negativos",
+      "previsto": 202.9,
+      "real": 202.9592573
+    },
+    {
+      "nome": "falsos_positivos",
+      "previsto": 209.7,
+      "real": 209.75852659999998
+    },
+    {
+      "nome": "contexto_mascara",
+      "previsto": 216.1,
+      "real": 216.1283388
+    },
+    {
+      "nome": "resolucao_160",
+      "previsto": 225.4,
+      "real": 225.686568
+    },
+    {
+      "nome": "comparacao_resolucoes",
+      "previsto": 233,
+      "real": 233.04029429999997
+    },
+    {
+      "nome": "medicao_video",
+      "previsto": 253.8,
+      "real": 254.11838919999997
+    },
+    {
+      "nome": "equipamento",
+      "previsto": 260,
+      "real": 260.01167169999997
+    },
+    {
+      "nome": "fps_medidos",
+      "previsto": 274,
+      "real": 274.041628
+    },
+    {
+      "nome": "pipeline_inferencia",
+      "previsto": 292.9,
+      "real": 293.2210385
+    },
+    {
+      "nome": "execucao_citizentech",
+      "previsto": 303.5,
+      "real": 303.57344450000005
+    },
+    {
+      "nome": "abrir_inspecao",
+      "previsto": 306,
+      "real": 306.1412317
+    },
+    {
+      "nome": "imagem_com_fissura",
+      "previsto": 311.3,
+      "real": 311.474998
+    },
+    {
+      "nome": "imagem_sem_fissura",
+      "previsto": 326.2,
+      "real": 326.35809620000003
+    },
+    {
+      "nome": "selecionar_video",
+      "previsto": 335,
+      "real": 335.042208
+    },
+    {
+      "nome": "inferir_video",
+      "previsto": 345.5,
+      "real": 346.884182
+    },
+    {
+      "nome": "atualizacoes_ao_vivo",
+      "quantidade": 180
+    },
+    {
+      "nome": "resultado_video",
+      "previsto": 361.5,
+      "real": 361.66652400000004
+    },
+    {
+      "nome": "classificacao_por_quadro",
+      "previsto": 369,
+      "real": 369.026064
+    },
+    {
+      "nome": "conjunto_sutil",
+      "previsto": 375,
+      "real": 375.126096
+    },
+    {
+      "nome": "resultado_sutis",
+      "previsto": 390.3,
+      "real": 390.31500940000006
+    },
+    {
+      "nome": "sutis_confirmados",
+      "previsto": 398,
+      "real": 402.3210478
+    },
+    {
+      "nome": "decisao_modelo",
+      "previsto": 403.6,
+      "real": 403.88241960000005
+    },
+    {
+      "nome": "rota_integracao",
+      "previsto": 412.6,
+      "real": 412.9258203
+    },
+    {
+      "nome": "limites",
+      "previsto": 427.1,
+      "real": 427.383184
+    },
+    {
+      "nome": "triagem_humana",
+      "previsto": 439.5,
+      "real": 439.775432
+    },
+    {
+      "nome": "encerramento",
+      "previsto": 448.6,
+      "real": 448.6674316
+    }
+  ],
+  "comandos": [
+    {
+      "acao": "dados",
+      "rodando": false,
+      "linhas": [
+        "CitizenTech | verificação: dados\n",
+        "\n",
+        "Lendo o manifesto e recalculando SHA-256 dos pixels RGB...\n",
+        "treino     100 fotos | 1600 recortes | {'crack': 800, 'no_crack': 800}\n",
+        "validacao   22 fotos |  352 recortes | {'crack': 176, 'no_crack': 176}\n",
+        "teste       22 fotos |  352 recortes | {'crack': 176, 'no_crack': 176}\n",
+        "\n",
+        "OK: 144 fotografias; 2.304 recortes de 227 x 227.\n",
+        "OK: zero origens compartilhadas entre conjuntos.\n",
+        "OK: 2.304 hashes distintos; todos os pixels conferem.\n",
+        "\n",
+        "Concluído em 4.56 s.\n"
+      ],
+      "codigo": 0
+    },
+    {
+      "acao": "teste",
+      "rodando": false,
+      "linhas": [
+        "CitizenTech | verificação: teste\n",
+        "\n",
+        "Checkpoint carregado: ResNet18 | 160 x 160\n",
+        "Limiar fixado na validação: 0.49\n",
+        "Executando inferência nas 352 imagens reservadas para teste...\n",
+        "  Processadas:  32/352\n",
+        "  Processadas:  64/352\n",
+        "  Processadas:  96/352\n",
+        "  Processadas: 128/352\n",
+        "  Processadas: 160/352\n",
+        "  Processadas: 192/352\n",
+        "  Processadas: 224/352\n",
+        "  Processadas: 256/352\n",
+        "  Processadas: 288/352\n",
+        "  Processadas: 320/352\n",
+        "  Processadas: 352/352\n",
+        "\n",
+        "RESULTADOS RECALCULADOS\n",
+        "Precisão  : 97.11%\n",
+        "Recall    : 95.45%\n",
+        "F1        : 96.28%\n",
+        "Acurácia  : 96.31%\n",
+        "\n",
+        "Matriz: linhas = real; colunas = previsto\n",
+        "                  sem fissura   com fissura\n",
+        "sem fissura               171             5\n",
+        "com fissura                 8           168\n",
+        "\n",
+        "OK: 5 falsos positivos + 8 falsos negativos = 13 erros.\n",
+        "OK: resultados reproduzem artifacts/metricas.json.\n",
+        "\n",
+        "Concluído em 18.44 s.\n"
+      ],
+      "codigo": 0
+    },
+    {
+      "acao": "ambiente",
+      "rodando": false,
+      "linhas": [
+        "CitizenTech | verificação: ambiente\n",
+        "\n",
+        "12th Gen Intel(R) Core(TM) i5-12450H\n",
+        "Windows | Python 3.13.2 | PyTorch 2.8.0+cpu\n",
+        "Inferência configurada para CPU, 4 threads.\n",
+        "\n",
+        "Registro dos experimentos: artifacts/experimentos.json\n",
+        "Médias de 5 execuções após aquecimento (medidas anteriores à gravação):\n",
+        "concreto_sequencia.mp4    | 160 px | 26.29 FPS | 38.31 ms\n",
+        "concreto_sequencia.mp4    | 224 px | 16.92 FPS | 59.26 ms\n",
+        "concreto_movimento.mp4    | 160 px | 27.00 FPS | 37.06 ms\n",
+        "concreto_movimento.mp4    | 224 px | 18.24 FPS | 54.83 ms\n",
+        "\n",
+        "Concluído em 3.32 s.\n"
+      ],
+      "codigo": 0
+    },
+    {
+      "acao": "sutis",
+      "rodando": false,
+      "linhas": [
+        "CitizenTech | verificação: sutis\n",
+        "\n",
+        "Conjunto complementar: 26 recortes de 13 fotos de teste.\n",
+        "Máscaras com 1 a 31 pixels; nenhum recorte do teste principal repetido.\n",
+        "\n",
+        "Entrada 160 x 160 | limiar 0.49 | sinalizados: 2/26 (7.7%)\n",
+        "Entrada 224 x 224 | limiar 0.19 | sinalizados: 2/26 (7.7%)\n",
+        "\n",
+        "Limitação confirmada: baixa sinalização dos fragmentos mínimos.\n",
+        "Esta amostra é complementar e não altera as métricas do teste principal.\n",
+        "\n",
+        "Concluído em 17.68 s.\n"
+      ],
+      "codigo": 0
+    }
+  ],
+  "erros": []
+}

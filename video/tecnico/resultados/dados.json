@@ -1,0 +1,26 @@
+{
+  "treino": {
+    "fotos": 100,
+    "recortes": 1600,
+    "classes": {
+      "crack": 800,
+      "no_crack": 800
+    }
+  },
+  "validacao": {
+    "fotos": 22,
+    "recortes": 352,
+    "classes": {
+      "crack": 176,
+      "no_crack": 176
+    }
+  },
+  "teste": {
+    "fotos": 22,
+    "recortes": 352,
+    "classes": {
+      "crack": 176,
+      "no_crack": 176
+    }
+  }
+}

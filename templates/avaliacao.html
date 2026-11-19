@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block title %}CitizenTech · Avaliação{% endblock %}
+{% block content %}
+  <section class="hero">
+    <div class="frame hero-inner">
+      <div><span class="eyebrow">04 / VALIDAÇÃO EXPERIMENTAL</span><h1>Avaliação do assistente</h1><p>Recuperação, geração e comportamento no fluxo completo.</p></div>
+      <div class="grid-art" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+    </div>
+  </section>
+  <main class="frame evaluation">
+  {% if resultado %}
+    <p class="eval-meta">Execução registrada em {{ resultado.data }} · {{ modelo }}</p>
+    <div class="metrics">
+      {% for metrica in resultado.placar %}
+        <section class="panel metric"><span>{{ metrica.rotulo }}</span><strong>{{ metrica.valor }}</strong><small>{{ metrica.detalhe }}</small></section>
+      {% endfor %}
+    </div>
+    <section class="panel eval-block">
+      <h2>Comparação de recuperação</h2>
+      <table>
+        <thead><tr><th>Segmentação</th><th>Trechos</th><th>Hit@1</th><th>Hit@3</th><th>MRR@3</th></tr></thead>
+        <tbody>{% for row in resultado.recuperacao %}<tr><th scope="row">{{ row.nome }}</th><td>{{ row.trechos }}</td><td>{{ row.hit1 }}</td><td>{{ row.hit3 }}</td><td>{{ row.mrr }}</td></tr>{% endfor %}</tbody>
+      </table>
+    </section>
+    <section class="panel eval-block" id="casos">
+      <h2>Casos executados</h2>
+      {% for caso in resultado.casos %}
+      <details id="caso-{{ caso.id }}">
+        <summary><span class="case-id">{{ caso.id }}</span> {{ caso.pergunta }} <span class="badge {% if not caso.ok %}error{% endif %}">{{ 'Atendeu' if caso.ok else 'Falhou' }}</span></summary>
+        <p><strong>Esperado</strong> · {{ caso.esperado }}</p>
+        <p><strong>Obtido</strong> · {{ caso.obtido.resposta }}</p>
+        <p><strong>Julgamento</strong> · {{ caso.julgamento }}</p>
+        {% if caso.obtido.fonte %}<p><a class="text-link" href="{{ caso.obtido.fonte.url }}" target="_blank" rel="noopener noreferrer">{{ caso.obtido.fonte.id }} · {{ caso.obtido.fonte.titulo }} ↗</a></p>{% endif %}
+        {% if caso.obtido.recuperados %}<p>Recuperados: {% for trecho in caso.obtido.recuperados %}{{ trecho.id }} ({{ trecho.score }}){% if not loop.last %}, {% endif %}{% endfor %}</p>{% endif %}
+      </details>
+      {% endfor %}
+    </section>
+  {% else %}
+    <p>Execute <code>python avaliar.py</code> com o modelo local disponível para preencher esta página.</p>
+  {% endif %}
+  </main>
+{% endblock %}
